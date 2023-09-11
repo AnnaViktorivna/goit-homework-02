@@ -1,0 +1,47 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+.title {
+  background-color: #2e2f42;
+  width: 1440px;
+  height: 600px;
+  color: #ffffff;
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 1.12px;
+}
+
+p {
+  color: #434455;
+  font-size: 16px;
+}
+
+.navigation {
+  color: #434455;
+}
+
+.navigation:hover {
+  color: #404bbf;
+}
+
+.Charpter {
+  color: #434455;
+  text-decoration: underline;
+}
+.Charpter:hover {
+  color: #404bbf;
+}
+
+.button {
+  background-color: #4d5ae5;
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background-color: #404bbf;
+}
