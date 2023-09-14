@@ -38,11 +38,15 @@ body {
 
 .header-list-element:hover,
 .header-list-element:active,
-.header-list-element:focus .header-item:hover,
-.header-item:active,
-.header-item:focus {
+.header-list-element:focus,
+.header-item:hover,
+.header-item:active {
   color: #404bbf;
   text-decoration: underline;
+}
+
+.header-item:focus {
+  color: #404bbf;
 }
 
 .address {
@@ -58,10 +62,13 @@ body {
 }
 
 .address-link:hover,
-.address-link:active,
+.address-link:active {
+  color: #404bbf;
+}
 .address-link:focus {
   color: #404bbf;
 }
+
 /**=========HEADER end===========*/
 
 /**=====section1 =====*/
@@ -92,7 +99,7 @@ body {
   background-color: #404bbf;
   cursor: pointer;
 }
-
+/*========section2-hidden-title=========*/
 .description-list {
   list-style: none;
 }
@@ -101,7 +108,7 @@ body {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.5;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
@@ -112,15 +119,14 @@ body {
   letter-spacing: 0.02em;
 }
 
-/**=====section1 end=====*/
+/**=====section2 end=====*/
 
-/**=====section2- our team end=====*/
+/**=====section3- our team end=====*/
 
 .section-team {
-  background-color: #ffffff;
+  background-color: #f4f4fd;
 }
-
-/*.team {
+.team {
   color: #2e2f42;
   text-align: center;
   font-size: 36px;
@@ -128,17 +134,18 @@ body {
   line-height: 1.12;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-}*/
-
+  text-align: center;
+}
 .team-list {
   list-style: none;
+  background-color: #ffffff;
 }
 
 .team-member {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.12;
   letter-spacing: 0.02em;
 }
 
@@ -148,15 +155,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-/**=====section2 end=====*/
+/**=====section3 end=====*/
 
-/**=====section3 describe portfolio=====*/
+/**=====section4 describe portfolio=====*/
 .section-portfolio {
   background-color: #f4f4fd;
-}
-.section-portfolio-list {
-  background-color: #ffffff;
-  list-style: none;
 }
 .section-portfolio-title {
   color: #2e2f42;
@@ -167,7 +170,10 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-
+.section-portfolio-list {
+  background-color: #ffffff;
+  list-style: none;
+}
 .section-subtitle {
   color: #2e2f42;
   font-size: 20px;
@@ -182,7 +188,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-/**=====section3 end=====*/
+/**=====section4 end=====*/
 
 /**=====footer=====*/
 .footer {
