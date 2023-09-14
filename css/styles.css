@@ -147,7 +147,7 @@ body {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.12;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
@@ -179,8 +179,8 @@ body {
 .section-subtitle {
   color: #2e2f42;
   font-size: 20px;
+  line-height: 1.2;
   font-weight: 500;
-  line-height: 1.12;
   letter-spacing: 0.02em;
 }
 
