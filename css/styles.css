@@ -139,6 +139,9 @@ body {
 .team-list {
   list-style: none;
 }
+.team-item {
+  background-color: #ffffff;
+}
 
 .team-member {
   color: #2e2f42;
@@ -146,7 +149,6 @@ body {
   font-weight: 500;
   line-height: 1.12;
   letter-spacing: 0.02em;
-  background-color: #ffffff;
 }
 
 .team-p {
