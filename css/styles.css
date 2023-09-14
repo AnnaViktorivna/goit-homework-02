@@ -1,13 +1,15 @@
 body {
   font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 .header-logo {
-  color: #2e2f42;
-  font-family: "Raleway";
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
@@ -15,14 +17,7 @@ body {
 }
 
 .header-logo-accent {
-  color: #4d5ae5;
-  font-family: "Raleway";
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.16667;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  text-decoration: none;
+  color: #2e2f42;
 }
 
 .header-list {
@@ -35,38 +30,40 @@ body {
 
 .header-list-element,
 .header-item {
+  color: #2e2f42;
   list-style: none;
   text-decoration: none;
 }
 
 .header-list-element:hover,
 .header-list-element:active,
-.header-item:hover,
-.header-item:active {
+.header-list-element:focus .header-item:hover,
+.header-item:active,
+.header-item:focus {
   color: #404bbf;
   text-decoration: underline;
 }
 
+.address {
+  font-style: normal;
+}
 .address-link {
   color: #434455;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.02px;
+  letter-spacing: 0.02em;
   text-decoration: none;
 }
 
 .address-link:hover,
-.address-link:active {
+.address-link:active,
+.address-link:focus {
   color: #404bbf;
 }
 
 .sectiom-main-title {
   background-color: #2e2f42;
-  width: 1440px;
-  height: 600px;
-  flex-shrink: 0;
 }
 
 .main-title {
@@ -74,13 +71,11 @@ body {
   text-align: center;
   font-size: 56px;
   font-weight: 700;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
 }
 
 .body-btn {
-  border-radius: 4px;
-  font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -89,8 +84,10 @@ body {
 }
 
 .body-btn:hover,
-.body-btn:active {
-  color: #404bbf;
+.body-btn:active,
+.body-btn:focus {
+  background-color: #404bbf;
+  cursor: pointer;
 }
 
 .hidden-title {
@@ -100,7 +97,6 @@ body {
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -115,7 +111,7 @@ body {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
@@ -127,7 +123,7 @@ body {
 }
 
 .section-team {
-  background-color: #f4f4fd;
+  background-color: #ffffff;
 }
 
 .team {
@@ -192,18 +188,18 @@ body {
 }
 
 .footer-logo {
-  color: #f4f4fd;
-  font-family: Raleway;
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
 }
 
 .footer-logo-accent {
-  color: #4d5ae5;
+  color: #f4f4fd;
 }
 
 .p-footer {
