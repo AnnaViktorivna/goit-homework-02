@@ -4,6 +4,7 @@ body {
   background-color: #ffffff;
 }
 
+/**=====HEADER=====*/
 .header-logo {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -61,7 +62,9 @@ body {
 .address-link:focus {
   color: #404bbf;
 }
+/**=========HEADER end===========*/
 
+/**=====section1 =====*/
 .sectiom-main-title {
   background-color: #2e2f42;
 }
@@ -90,19 +93,6 @@ body {
   cursor: pointer;
 }
 
-.hidden-title {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
 .description-list {
   list-style: none;
 }
@@ -122,19 +112,23 @@ body {
   letter-spacing: 0.02em;
 }
 
+/**=====section1 end=====*/
+
+/**=====section2- our team end=====*/
+
 .section-team {
   background-color: #ffffff;
 }
 
-.team {
+/*.team {
   color: #2e2f42;
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.11;
+  line-height: 1.12;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-}
+}*/
 
 .team-list {
   list-style: none;
@@ -154,8 +148,14 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+/**=====section2 end=====*/
 
+/**=====section3 describe portfolio=====*/
+.section-portfolio {
+  background-color: #f4f4fd;
+}
 .section-portfolio-list {
+  background-color: #ffffff;
   list-style: none;
 }
 .section-portfolio-title {
@@ -182,7 +182,9 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+/**=====section3 end=====*/
 
+/**=====footer=====*/
 .footer {
   background-color: #2e2f42;
 }
@@ -209,3 +211,4 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+/**=====footer end=====*/
